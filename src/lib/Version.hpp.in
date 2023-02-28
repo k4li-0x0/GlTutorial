@@ -1,0 +1,39 @@
+/**
+ * @file Version.hpp.in
+ * @author K4li
+ * @brief Project name and version
+ * @version 1.0
+ * @date 2023-02-26
+ * 
+ * @copyright Copyright (c) 2023 K4li
+ * 
+ */
+
+#pragma once
+#include <stdint.h>
+#include <string>
+
+/**
+ * @brief Project namespace
+ */
+namespace Tutorial {
+   /**
+    * @brief Project name and version specified in cmake
+    */
+   const std::string PROJECT_NAME = "${CMAKE_PROJECT_NAME} v${CMAKE_PROJECT_VERSION}";
+
+   /**
+    * @brief Major version of the project specified in cmake
+    */
+   const uint32_t PROJECT_VERSION_MAJOR = ${CMAKE_PROJECT_VERSION_MAJOR};
+
+   /**
+    * @brief Minor version of the project specified in cmake
+    */
+   const uint32_t PROJECT_VERSION_MINOR = ${CMAKE_PROJECT_VERSION_MINOR};
+
+   /**
+    * @brief Patch version of the project specified in cmake
+    */
+   const uint32_t PROJECT_VERSION_PATCH = ${CMAKE_PROJECT_VERSION_PATCH};
+}  // namespace Tutorial

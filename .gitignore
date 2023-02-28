@@ -1,0 +1,15 @@
+*
+!.clang-format
+!.gitignore
+!CMakeLists.txt
+!LICENSE
+!README.md
+!src
+!src/**
+!deps
+!deps/**
+!docs
+!docs/src/**
+!docs/CMakeLists.txt
+!.vscode
+!.vscode/extensions.json

@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"cschlosser.doxdocgen",
+		"k4li.cpp-class-generator",
+		"xaver.clang-format",
+		"llvm-vs-code-extensions.vscode-clangd",
+		"ms-vscode.cpptools-extension-pack",
+		"dtoplak.vscode-glsllint"
+	]
+}

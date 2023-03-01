@@ -8,14 +8,15 @@
  * @copyright Copyright (c) 2023 K4li
  */
 #pragma once
-#include "Version.hpp"
-
 #include <array>
 #include <memory>
 #include <spdlog/common.h>
 #include <spdlog/sinks/basic_file_sink.h>
 #include <spdlog/sinks/stdout_color_sinks.h>
 #include <spdlog/spdlog.h>
+
+#include "Version.hpp"
+
 
 namespace Tutorial {
    /**

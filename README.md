@@ -3,6 +3,8 @@
 ## Features:
 
 * Logging with spdlog
+* Windowing and input handling with GLFW
+* Loading OpenGL with glad
 
 ## How to build project
 
@@ -14,7 +16,7 @@ Open the project folder in Visual Studio Code, install the recommended extension
 
 ```bash
 cd /path/to/tutorial
-mkdir build
+mkdir "build"
 cmake -B "build" -S . -G "preferred generator, I recommend Ninja"
 cmake --build "build"
 ```
